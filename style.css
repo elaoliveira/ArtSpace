@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#form{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+#inp1{
+    margin-right: 3rem;
+}
+#inp2{
+    margin-bottom: 0.5rem;
+}
+#inp3{
+    margin-left: 3rem;
+}
+body{
+    background-color: rgb(3, 3, 238);
+}
+#btn_send{
+    background-color: tomato;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#list_cards{
+    display: flex;
+    justify-content: space-between;
+}
+#list_cards img{
+    width: 100px;
+}
+#list_cards p{
+    margin-top: 0.3rem;
+    text-align: center;
+}
